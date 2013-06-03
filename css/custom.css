@@ -1,0 +1,147 @@
+body {
+}
+
+p {
+    font-size: 16px;
+}
+section .features li a span {
+    font-size: 20px;
+}
+
+/* lets get those feature bubbles to center themselves without a float */
+#page .container > .content.color > ul.features {
+    margin: 0 auto;
+    display: table;
+    width: 960px;
+}
+
+/* footer customizations */
+
+footer #copyright {
+    background: none;
+}
+footer #copyright img {
+    text-align: center;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0 0 0;
+    display: table;
+}
+footer #copyright p {
+    text-align: center;
+    display: table;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    padding-bottom: 20px;
+    color: #000;
+} 
+
+footer #copyright {
+    height: auto;
+}
+
+footer {
+    /*
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    */
+}
+
+footer #copyright p a {
+    -moz-transition: 200ms linear color;
+    -ms-transition: 200ms linear color;
+    -o-transition: 200ms linear color;
+    -webkit-transition: 200ms linear color;
+    text-decoration: underline;
+    transition: 200ms linear color;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.25);
+    color: #000;
+} 
+
+footer #copyright p a:hover {    color: #333333 } 
+
+section .container h1 {
+    font-size: 40px;
+}
+
+section #features .content:nth-of-type(1) > h1 {
+    padding-bottom: 70px;
+    line-height: 1.1;
+}
+
+section #features .content > h1#devs {
+    padding: 0 0 28px 0;
+    height: auto;
+     background-image: url('../images/to_bottom.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+h1.expand:hover {
+    padding: 0 0 38px 0 !important;
+   -moz-transition: 600ms ease padding;
+    -ms-transition: 600ms ease padding;
+    -o-transition: 600ms ease padding;
+    -webkit-transition: 600ms ease padding;
+    transition: 600ms ease padding;
+
+}
+
+section .container .color h1 a {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.25);
+}
+
+section .container .color p, section .container .color span {
+    color: #fff;
+}
+
+section .color .features li a {
+    color: #fff;
+} 
+
+section .color .features li a:hover i:before {
+    text-shadow: 0px 1px rgba(0, 0, 0, .25);
+	color: #26AE5F;
+} 
+
+section .color .features li a i,
+section .color .features li a i:before {
+    color: #fff;
+}
+section .color .features li a:hover i {
+    background-color: #fff;
+}
+
+section .color .features li a:hover span {
+    color: #fff;
+}
+ 
+
+/* peek-a-boo */
+
+.android {
+    color: #A4C639;
+    background-image: url("../images/whitepx.png"), url("../images/android.png");
+    background-repeat: repeat, no-repeat;
+    background-position: left bottom, top center;
+    background-clip: content-box, padding-box;
+
+     -moz-transition: 600ms ease padding;
+    -ms-transition: 600ms ease padding;
+    -o-transition: 600ms ease padding;
+    -webkit-transition: 600ms ease padding;
+    transition: 600ms ease padding;
+}
+
+.android:hover {
+    padding-top: 45px;
+}
