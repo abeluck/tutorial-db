@@ -4,6 +4,7 @@ body {
 p {
     font-size: 16px;
 }
+
 section .features li a span {
     font-size: 20px;
 }
@@ -145,3 +146,28 @@ section .color .features li a:hover span {
 .android:hover {
     padding-top: 45px;
 }
+
+
+/* disabling be complicated! */
+
+.disabled i:before,
+.disabled i,
+.disabled i:hover
+{
+    color: #999 !important;
+    background-color: white !important;
+}
+.disabled i,
+.disabled i:hover
+{
+    border: 3px solid rgb(238, 238, 238) !important;
+}
+
+.disabled span,
+.disabled:hover  span,
+.disabled span,
+.disabled p
+{
+    color: #999 !important;
+}
+
