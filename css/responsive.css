@@ -1,0 +1,1393 @@
+/* Responsive Styles */
+
+/* Mini Tablet horizontal specific styles */
+
+@media only screen and (width : 800px) and (orientation : landscape) {
+
+    header .header.fixed #menu_cover {
+        padding: 10px 0px 2px 0px !important;
+    }
+
+    header .header {
+        background-size: auto 100%;
+    }
+
+    header .header, header .header.fixed #menu_cover {
+        width: 100%;
+    }
+
+    header .header.layered {
+        height: 534px;
+    }
+
+    header .header.minimal {
+        height: 180px;
+        background-size: 100% auto !important;
+    }
+
+    header .header.minimal .tint {
+        height: 200px;
+    }
+
+    header .header.fixed.layered {
+        height: 534px;
+    }
+
+    header .header nav#menu ul li a {
+        font-size: 12px !important;
+    }
+
+    header .header.layered .responsive-container {
+        width: 800px !important;
+    }
+
+    header .header.layered .slider {
+         height: 367px !important;
+    }  
+
+    section #page {
+        width: 100% !important;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .fluid section #page .container > .content {
+        width: 100%;
+    }
+
+    section .container {
+        padding-bottom: 10px;
+    }
+
+    section .container .slogan {
+        width: 540px;
+    }
+
+    section .download li a {
+        width: 240px;
+    }
+
+    section .column img {
+        width: 100%;
+        margin-top: 25%;
+    }
+
+    section ul.features {
+        width: 720px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section .color .middle {
+        width: 100%;
+    }
+
+    section .color .column {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+    }
+
+    section .color .column p {
+        width: 560px;
+    }
+
+    section #screens {
+        width: 720px;
+    }
+
+    section #articles {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none !important;
+    }
+
+    section article .featured a img {
+        width: 100%;
+    }
+
+    section article .article_summary {
+        width: 420px;
+    }
+
+    section aside {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none !important;
+    }
+
+    section aside .module .content .posts li a div {
+        width: 460px;
+    }
+
+    section #team_members, section #team_members .team_member .photo img {
+        width: 100%;
+    }
+
+    section #team_members .team_member {
+        width: 240px;
+    }
+
+    section #team_members ul li {
+        margin-bottom: 10px;
+    }
+
+    section #contact .left, #contact .right {
+        width: 460px;
+        float: none;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 40px;
+        clear: both;
+    }
+
+    section #contact .left:after {
+        display: none;
+    }
+
+    section #contact h3 {
+        text-align: center;
+    }
+
+    section #contact #contact_socials li {
+        margin-bottom: 20px;
+    }
+
+}
+
+/* Tablet vertical specific styles */
+
+@media only screen and (width : 768px) and (orientation : portrait) {
+
+    header .header.fixed #menu_cover {
+        padding: 10px 0px 2px 0px !important;
+    }
+
+    header .header, header .header.fixed #menu_cover {
+        width: 100%;
+    }
+
+    header .header.minimal {
+        height: 180px;
+        background-size: 100% auto !important;
+    }
+
+    header .header.minimal .tint {
+        height: 200px;
+    }
+
+    header .header {
+        background-size: auto 100%;
+    }
+
+    header .header.fixed.mockup {
+        height: 700px;
+        padding-top: 80px;
+    }
+
+    header .header.layered {
+        height: 534px;
+    }
+
+    header .header.fixed.layered {
+        height: 472px;
+    }
+
+    header .header nav#menu ul li a {
+        font-size: 12px !important;
+    }
+
+    header .header.layered .responsive-container {
+        width: 768px !important;
+    }
+
+    header .header.layered .slider {
+        height: 352px !important;
+    }
+
+    header .header.fixed #logo {
+        padding-bottom: 0px;
+    }
+
+    section #page {
+        width: 100% !important;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .fluid section #page .container > .content {
+        width: 100%;
+    }
+
+    section .container {
+        padding-bottom: 10px;
+    }
+
+    section .container .slogan {
+        width: 540px;
+    }
+
+    section .download li a {
+        width: 236px;
+    }
+
+    section .column img {
+        width: 100%;
+        margin-top: 25%;
+    }
+
+    section ul.features {
+        width: 720px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section .color .middle {
+        width: 100%;
+    }
+
+    section .color .column {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+    }
+
+    section .color .column p {
+        width: 560px;
+    }
+
+    section #screens {
+        width: 720px;
+    }
+
+    section #articles {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none !important;
+    }
+
+    section article .featured a img {
+        width: 100%;
+    }
+
+    section article .article_summary {
+        width: 420px;
+    }
+
+    section aside {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none !important;
+    }
+
+    section aside .module .content .posts li a div {
+        width: 460px;
+    }
+
+    section #team_members, section #team_members .team_member .photo img {
+        width: 100%;
+    }
+
+    section #team_members .team_member {
+        width: 228px;
+    }
+
+    section #team_members ul li {
+        margin-bottom: 10px;
+    }
+
+    section #contact .left, #contact .right {
+        width: 460px;
+        float: none;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 40px;
+        clear: both;
+    }
+
+    section #contact .left:after {
+        display: none;
+    }
+
+    section #contact h3 {
+        text-align: center;
+    }
+
+    section #contact #contact_socials li {
+        margin-bottom: 20px;
+    }
+
+}
+
+/* Mini Tablet - Portrait */
+
+@media only screen and (width : 600px) and (orientation : portrait) {
+
+    header {
+        padding-top: 50px !important;
+    }
+
+    header .header {
+        width: 100%;
+    }
+
+    header .header {
+        background-size: auto 100%;
+    }
+
+    header .header.minimal {
+        height: 120px;
+        background-size: 100% auto !important;
+    }
+
+    header .header.fixed #logo {
+        padding-bottom: 0px;
+    }
+
+    header .header.minimal .tint {
+        height: 140px;
+    }
+
+    header .header.layered {
+        height: 395px;
+    }
+
+    header #menu_cover {
+        display: none !important;
+    }
+
+    header .header.mockup #logo, header .header.minimal #logo, header .header.layered #logo {
+        background-size: auto 80%;
+        background-position: center top;
+    }
+
+    header .header.mockup #mockup_slider #cover {
+        width: 580px;
+        height: 360px;
+        background-size: 100%;
+    }
+
+    header .header.mockup #mockup_slider p {
+        margin-bottom: 0px;
+        width: 580px;
+    }
+
+    header .header.mockup #mockup_slider #cover .banner {
+        width: 433px !important;
+        padding-top: 42px;
+        margin-left: 74px;
+    }
+
+    header .header.mockup #mockup_slider #cover .banner ul li {
+        min-height: 271px !important;
+    }
+
+    header .header.mockup #mockup_slider #cover .banner ul li img {
+        width: 100%;
+    }
+
+    header .header.layered .responsive-container {
+        width: 600px !important;
+    }
+
+    header .header.layered .slider {
+         height: 275px !important;
+    }      
+
+    .fs-pager-wrapper a {
+        width: 14px;
+        height: 14px;
+    }
+
+    section #page {
+        width: 100% !important;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .fluid section #page .container > .content {
+        width: 100%;
+    }
+
+    section .container {
+        padding-bottom: 10px;
+    }
+
+    section .container .slogan {
+        width: 540px;
+    }
+
+    section .download li a {
+        width: 180px;
+    }
+
+    section .column img {
+        width: 100%;
+        margin-top: 50%;
+    }
+
+    section ul.features {
+        width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section .color .middle {
+        width: 100%;
+    }
+
+    section .color .column {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+    }
+
+    section .color .column p {
+        width: 400px;
+    }
+
+    section #screens {
+        width: 540px;
+    }
+
+    section #articles {
+        width: 560px;
+        margin-right: 10px;
+    }
+
+    section article .featured a img {
+        width: 100%;
+    }
+
+    section article .article_summary {
+        width: 380px;
+    }
+
+    section aside {
+        width: 560px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    section aside .module .content .posts li a div {
+        width: 400px;
+    }
+
+    section #team_members, section #team_members .team_member .photo img {
+        width: 100%;
+    }
+
+    section #team_members .team_member {
+        width: 270px;
+    }
+
+    section #contact .left, #contact .right {
+        width: 460px;
+        float: none;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 40px;
+        clear: both;
+    }
+
+    section #contact .left:after {
+        display: none;
+    }
+
+    section #contact h3 {
+        text-align: center;
+    }
+
+    section #contact #contact_socials li {
+        margin-bottom: 20px;
+    }
+
+}
+
+/* iPhone 5 Horizontal */
+
+@media only screen and (width : 568px) and (orientation : landscape) {
+
+    header {
+        padding-top: 50px !important;
+    }
+
+    header .header {
+        width: 100%;
+    }
+
+    header .header.fixed #logo {
+        padding-bottom: 0px;
+    }
+
+    header .header.mockup .tint {
+        height: 355px;
+    }
+
+    header .header.minimal {
+        height: 120px;
+        background-size: 100% auto !important;
+    }
+
+    header .header.minimal .tint {
+        height: 140px;
+    }
+
+    header .header.mockup {
+        height: 500px;
+    }
+
+    header .header.layered {
+        height: 380px;
+    }
+
+    header #menu_cover {
+        display: none !important;
+    }
+
+    header .header.mockup #logo, header .header.minimal #logo, header .header.layered #logo {
+        background-size: auto 80%;
+        background-position: center top;
+    }
+
+    header .header.layered .responsive-container {
+        width: 568px !important;
+    }
+
+    header .header.layered .slider {
+         height: 260px !important;
+    }  
+
+    .fs-pager-wrapper a {
+        width: 14px;
+        height: 14px;
+    }
+
+    header .header.mockup #mockup_slider {
+        margin-top: 10px;
+    }
+
+    header .header.mockup #mockup_slider:before {
+        height: 80px;
+    }
+
+    header .header.mockup #mockup_slider #cover {
+        width: 420px;
+        height: 260px;
+        background-size: 100%;
+    }
+
+    header .header.mockup #mockup_slider .header {
+        height: 20px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    header .header.mockup #mockup_slider p {
+        margin-bottom: 0px;
+        width: 280px;
+        font-size: 11px;
+    }
+
+    header .header.mockup #mockup_slider #cover .banner {
+        width: 314px !important;
+        padding-top: 31px;
+        margin-left: 53px;
+    }
+
+    header .header.mockup #mockup_slider #cover .banner ul li {
+        min-height: 130px !important;
+    }
+
+    header .header.mockup #mockup_slider #cover .banner ul li img {
+        width: 100%;
+    }
+
+    header .header.mockup #mockup_slider #cover .unslider-arrow.prev {
+        left: -20px;
+    }
+
+    header .header.mockup #mockup_slider #cover .unslider-arrow.next {
+        right: -20px;
+    }
+
+    header .header.mockup #mockup_slider #cover .unslider-arrow {
+        top: 70px;
+    }
+
+    section #page {
+        width: 100% !important;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .fluid section #page .container > .content {
+        width: 100%;
+    }
+
+    section .container {
+        padding-bottom: 10px;
+    }
+
+    section .container .slogan {
+        width: 540px;
+    }
+
+    section .download li a {
+        width: 168px;
+    }
+
+    section .column img {
+        width: 100%;
+        margin-top: 50%;
+    }
+
+    section ul.features {
+        width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section .color .middle {
+        width: 100%;
+    }
+
+    section .color .column {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+    }
+
+    section .color .column p {
+        width: 380px;
+    }
+
+    section #screens {
+        width: 540px;
+    }
+
+    section #articles {
+        width: 528px;
+        margin-right: 10px;
+    }
+
+    section article .featured a img {
+        width: 100%;
+    }
+
+    section article .article_summary {
+        width: 340px;
+    }
+
+    section aside {
+        width: 528px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    section aside .module .content .posts li a div {
+        width: 380px;
+    }
+
+    section #team_members, section #team_members .team_member .photo img {
+        width: 100%;
+    }
+
+    section #team_members .team_member {
+        width: 254px;
+    }
+
+    section #team_members ul li {
+        margin-bottom: 10px;
+    }
+
+    section #contact .left, #contact .right {
+        width: 460px;
+        float: none;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 40px;
+        clear: both;
+    }
+
+    section #contact .left:after {
+        display: none;
+    }
+
+    section #contact h3 {
+        text-align: center;
+    }
+
+    section #contact #contact_socials li {
+        margin-bottom: 20px;
+    }
+
+}
+
+/* All Cell Phones Horizontal */
+
+@media only screen and (width : 480px) and (orientation : landscape) {
+
+    header {
+        padding-top: 50px !important;
+    }
+
+    header .header {
+        width: 100%;
+        background-size: auto 100%;
+    }
+
+    header .header.mockup, header .header.mockup .tint {
+        height: 500px;
+    }
+
+    header .header.fixed #logo {
+        padding-bottom: 0px;
+    }
+
+    header .header.minimal {
+        height: 120px;
+        background-size: 100% auto !important;
+    }
+
+    header .header.minimal .tint {
+        height: 140px;
+    }
+
+    header .header.layered {
+        height: 340px;
+    }
+
+    header #menu_cover {
+        display: none !important;
+    }
+
+    header .header.mockup #logo, header .header.minimal #logo, header .header.layered #logo {
+        background-size: auto 80%;
+        background-position: center top;
+    }
+
+    header .header.layered .responsive-container {
+        width: 480px !important;
+    }
+
+    header .header.layered .slider {
+         height: 220px !important;
+    }  
+
+    .fs-pager-wrapper a {
+        width: 10px;
+        height: 10px;
+    }
+
+    header .header.mockup #mockup_slider:before {
+        height: 80px;
+    }
+
+    header .header.mockup #mockup_slider #cover {
+        width: 420px;
+        height: 260px;
+        background-size: 100%;
+    }
+
+    header .header.mockup #mockup_slider .header {
+        height: 20px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    header .header.mockup #mockup_slider p {
+        margin-bottom: 0px;
+        width: 280px;
+        font-size: 11px;
+    }
+
+    header .header.mockup #mockup_slider #cover .banner {
+        width: 314px !important;
+        padding-top: 31px;
+        margin-left: 53px;
+    }
+
+    header .header.mockup #mockup_slider #cover .banner ul li {
+        min-height: 130px !important;
+    }
+
+    header .header.mockup #mockup_slider #cover .banner ul li img {
+        width: 100%;
+    }
+
+    header .header.mockup #mockup_slider #cover .unslider-arrow.prev {
+        left: -20px;
+    }
+
+    header .header.mockup #mockup_slider #cover .unslider-arrow.next {
+        right: -20px;
+    }
+
+    header .header.mockup #mockup_slider #cover .unslider-arrow {
+        top: 70px;
+    }
+
+    section #page {
+        width: 100% !important;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .fluid section #page .container > .content {
+        width: 100%;
+    }
+
+    section .container {
+        padding-bottom: 10px;
+    }
+
+    section .container .slogan {
+        width: 260px;
+        margin-bottom: 40px;
+    }
+
+    section .download {
+        clear: both;
+        display: block;
+    }
+
+    section .download li {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    section .download li, section .download li a {
+        width: 100%;
+    }
+
+    section .download li+li:after {
+        display: none;
+    }
+
+    section .column.one_two {
+        width: 100%;
+    }
+
+    section .column img {
+        width: 80%;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section ul.features {
+        width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section .color .middle {
+        width: 100%;
+    }
+
+    section .color .column {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+    }
+
+    section .color .column i {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section .color .column span {
+        text-align: center;
+    }
+
+    section .color .column p {
+        width: 380px;
+        text-align: center;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    section #screens {
+        width: 360px;
+    }
+
+    section #articles {
+        width: 438px;
+        margin-right: 10px;
+    }
+
+    section article .featured a img {
+        width: 100%;
+    }
+
+    section article .article_summary {
+        width: 260px;
+    }
+
+    section aside {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    section aside .module .content .posts li a div {
+        width: 320px;
+    }
+
+    section #team_members, section #team_members .team_member .photo img {
+        width: 100%;
+    }
+
+    section #team_members .team_member {
+        width: 210px;
+    }
+
+    section #team_members ul li {
+        margin-bottom: 10px;
+    }
+
+    section #contact p {
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    section #contact label {
+        padding: 0px;
+        display: block;
+    }
+
+    section #contact span.error {
+        margin-left: 0px;
+    }
+
+    section #contact label, section #contact input, section #contact textarea {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+        text-align: center;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section #contact textarea {
+        margin-bottom: 19px;
+    }
+
+    section #contact .left, #contact .right {
+        width: 420px;
+        float: none;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 40px;
+        clear: both;
+    }
+
+    section #contact .right ul {
+        padding: 0px;
+    }
+
+    section #contact .right ul li {
+        width: 100%;
+    }
+
+    section #contact .right ul li span {
+        text-align: center;
+    }
+
+    section #contact .right ul li span:first-child {
+        width: 100%;
+    }
+
+    section #contact .right ul li span:first-child:after {
+        display: none;
+    }
+
+    section #contact .right ul li span:last-child {
+        width: 100%;
+    }
+
+    section #contact .left:after {
+        display: none;
+    }
+
+    section #contact h3 {
+        text-align: center;
+    }
+
+    section #contact .right .map {
+        width: 420px;
+        margin: 0px !important;
+    }
+
+    section #contact #contact_socials {
+        width: 400px;
+    }
+
+    section #contact #contact_socials li {
+        margin-bottom: 20px;
+    }
+
+}
+
+/* All Cell Phones Vertical */
+
+@media only screen and (width : 320px) and (orientation : portrait) {
+
+    header {
+        padding-top: 50px !important;
+    }
+
+    header .header {
+        width: 100%;
+        background-size: auto 100%;
+    }
+
+    header .header.mockup {
+        height: 460px;
+    }
+
+    header .header.fixed #logo {
+        padding-bottom: 0px;
+    }
+
+    header .header.layered {
+        height: 267px;
+    }
+
+    header .header.minimal {
+        height: 120px;
+        background-size: 100% auto !important;
+    }
+
+    header .header.minimal .tint {
+        height: 140px;
+    }
+
+    header .header .tint {
+        height: 400px;
+    }
+
+    header #menu_cover {
+        display: none !important;
+    }
+
+    header .header.mockup #logo, header .header.minimal #logo, header .header.layered #logo {
+        background-size: auto 80%;
+        background-position: center top;
+    }
+
+    header .header.layered .responsive-container {
+        width: 320px !important;
+    }
+
+    header .header.layered .slider {
+         height: 147px !important;
+    }  
+
+    .fs-pager-wrapper a {
+        width: 10px;
+        height: 10px;
+    }
+
+    header .header.mockup #mockup_slider:before {
+        height: 80px;
+    }
+
+    header .header.mockup #mockup_slider #cover {
+        width: 280px;
+        height: 175px;
+        background-size: 100%;
+    }
+
+    header .header.mockup #mockup_slider .header {
+        height: 20px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    header .header.mockup #mockup_slider p {
+        margin-bottom: 0px;
+        width: 280px;
+        font-size: 11px;
+    }
+
+    header .header.mockup #mockup_slider #cover .banner {
+        width: 210px !important;
+        padding-top: 20px;
+        margin-left: 35px;
+    }
+
+    header .header.mockup #mockup_slider #cover .banner ul li {
+        min-height: 130px !important;
+    }
+
+    header .header.mockup #mockup_slider #cover .banner ul li img {
+        width: 100%;
+    }
+
+    header .header.mockup #mockup_slider #cover .unslider-arrow.prev {
+        left: -20px;
+    }
+
+    header .header.mockup #mockup_slider #cover .unslider-arrow.next {
+        right: -20px;
+    }
+
+    header .header.mockup #mockup_slider #cover .unslider-arrow {
+        top: 70px;
+    }
+
+    section #page {
+        width: 100% !important;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .fluid section #page .container > .content {
+        width: 100%;
+    }
+
+    section .container {
+        padding-bottom: 10px;
+    }
+
+    section .container .slogan {
+        width: 260px;
+        margin-bottom: 40px;
+    }
+
+    section .download {
+        clear: both;
+        display: block;
+    }
+
+    section .download li {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    section .download li, section .download li a {
+        width: 100%;
+    }
+
+    section .download li+li:after {
+        display: none;
+    }
+
+    section .column.one_two {
+        width: 100%;
+    }
+
+    section .column img {
+        width: 80%;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section ul.features {
+        width: 240px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section .color .middle {
+        width: 100%;
+    }
+
+    section .color .column {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+    }
+
+    section .color .column i {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section .color .column span {
+        text-align: center;
+    }
+
+    section .color .column p {
+        width: 260px;
+        text-align: center;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    section #screens {
+        width: 180px;
+    }
+
+    section #articles {
+        width: 278px;
+        margin-right: 10px;
+    }
+
+    section article .featured a img {
+        width: 100%;
+    }
+
+    section article .article_info {
+        width: 100%;
+        border: none !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section article .article_info div {
+        display: table !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section article .article_summary {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section aside {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    section aside .module .content .posts li a div {
+        width: 160px;
+    }
+
+    section #team_members, section #team_members .team_member .photo img {
+        width: 100%;
+    }
+
+    section #team_members .team_member {
+        width: 280px;
+    }
+
+    section #team_members ul li {
+        margin-bottom: 10px;
+    }
+
+    section #contact p {
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    section #contact label {
+        padding: 0px;
+        display: block;
+    }
+
+    section #contact span.error {
+        margin-left: 0px;
+    }
+
+    section #contact label, section #contact input, section #contact textarea {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+        text-align: center;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section #contact textarea {
+        margin-bottom: 19px;
+    }
+
+    section #contact .left, #contact .right {
+        width: 100%;
+        float: none;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 40px;
+        clear: both;
+    }
+
+    section #contact .right ul {
+        padding: 0px;
+    }
+
+    section #contact .right ul li span {
+        text-align: center;
+    }
+
+    section #contact .right ul li span:first-child {
+        width: 100%;
+    }
+
+    section #contact .right ul li span:first-child:after {
+        display: none;
+    }
+
+    section #contact .left:after {
+        display: none;
+    }
+
+    section #contact h3 {
+        text-align: center;
+    }
+
+    section #contact .right .map {
+        width: 280px;
+    }
+
+    section #contact #contact_socials {
+        width: 240px;
+    }
+
+    section #contact #contact_socials li {
+        margin-bottom: 20px;
+    }
+
+}
